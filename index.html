@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Healthcare Physiotherapy Clinic, Sunjawan</title>
+  <meta name="description"
+    content="Healthcare Physiotherapy Clinic, Sunjawan – Physiotherapy, rehabilitation and pain management care by Dr. Saghir Ahmed (PT), Jammu." />
+
+  <style>
+    :root {
+      --primary: #c62828;
+      --dark: #1f2937;
+      --gray: #6b7280;
+      --light: #f9fafb;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    }
+
+    body {
+      color: var(--dark);
+      background: #ffffff;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    /* Header */
+    header {
+      background: #ffffff;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .header-top {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .clinic-name {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .doctor-name {
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--dark);
+    }
+
+    .cta-buttons {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    .cta-buttons a {
+      white-space: nowrap;
+    }
+
+    .btn {
+      padding: 10px 16px;
+      border-radius: 6px;
+      font-size: 0.95rem;
+      font-weight: 500;
+      border: none;
+      cursor: pointer;
+      display: inline-block;
+    }
+
+    .btn-call {
+      background: var(--primary);
+      color: #fff;
+    }
+
+    .btn-whatsapp {
+      background: #16a34a;
+      color: #fff;
+    }
+
+    /* Banner */
+    .banner {
+      width: 100%;
+      height: 480px;
+      margin-top: 20px;
+      overflow: hidden;
+      background: #e5e7eb;
+    }
+
+    .banner img {
+      width: 80%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* Sections */
+    section {
+      padding: 40px 0;
+    }
+
+    .section-title {
+      font-size: 1.3rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    .intro-text {
+      color: var(--gray);
+      max-width: 800px;
+    }
+
+    /* Services */
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+    }
+
+    .service-box {
+      background: var(--light);
+      padding: 16px;
+      border-radius: 8px;
+      border: 1px solid #e5e7eb;
+      font-size: 0.95rem;
+    }
+
+    /* Doctor */
+    .doctor-box {
+      background: var(--light);
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid #e5e7eb;
+      max-width: 800px;
+    }
+
+    .doctor-box p {
+      margin-bottom: 8px;
+      font-size: 0.95rem;
+    }
+
+    /* Contact */
+    .contact-box {
+      background: var(--light);
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid #e5e7eb;
+      max-width: 800px;
+    }
+
+    .contact-box p {
+      margin-bottom: 8px;
+      font-size: 0.95rem;
+    }
+
+    /* Footer */
+    footer {
+      background: #f3f4f6;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.85rem;
+      color: var(--gray);
+      margin-top: 40px;
+    }
+
+    /* Mobile */
+    @media (max-width: 600px) {
+      .banner {
+        height: 260px;
+      }
+
+      .clinic-name {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="container header-top">
+      <div class="clinic-name">Healthcare Physiotherapy Clinic, Sunjawan</div>
+      <div class="doctor-name">Dr. Saghir Ahmed (PT)</div>
+
+      <div class="cta-buttons">
+        <a class="btn btn-call" href="tel:7827663963">Call Now</a>
+        <a class="btn btn-whatsapp" href="https://wa.me/917827663963" target="_blank">WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <div class="banner">
+    <img src="banner.png" alt="Healthcare Physiotherapy Clinic Sunjawan">
+  </div>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">About the Clinic</h2>
+      <p class="intro-text">
+        Healthcare Physiotherapy Clinic, Sunjawan provides physiotherapy, rehabilitation,
+        and pain management care with a focus on clarity, comfort, and patient-friendly treatment.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">Services</h2>
+      <div class="services">
+        <div class="service-box">Physiotherapy & Rehabilitation</div>
+        <div class="service-box">Neck & Back Pain Management</div>
+        <div class="service-box">Knee & Shoulder Pain</div>
+        <div class="service-box">Post-Operative Rehabilitation</div>
+        <div class="service-box">Sports Injury Management</div>
+        <div class="service-box">Cupping Therapy (Hijama)</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">Doctor</h2>
+      <div class="doctor-box">
+        <p><strong>Dr. Saghir Ahmed (PT)</strong></p>
+        <p>BPT, PGDHHDM, MIAP</p>
+        <p>Government Medical College, Jammu</p>
+        <p>Former Consultant Physiotherapist at MAMC & MNC, Delhi</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">Contact Details</h2>
+      <div class="contact-box">
+        <p><strong>Phone:</strong> 7827663963</p>
+        <p><strong>Email:</strong> drsaghirahmed14@gmail.com</p>
+        <p><strong>Address:</strong> Sunjawan Morh, Opp. 999 Gym, Bathindi Road, Jammu</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © Healthcare Physiotherapy Clinic, Sunjawan
+  </footer>
+
+</body>
+
+</html>
